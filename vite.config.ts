@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// Настройка путей сборки для корректного отображения на GitHub Pages
 export default defineConfig({
   plugins: [react()],
-  // Задаем базовый путь сборки под твой репозиторий GitHub
   base: '/FutureCoffee/',
 })
